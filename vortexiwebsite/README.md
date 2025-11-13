@@ -137,7 +137,8 @@ yourdomain.here {
     ErrorDocument 504 /500.html
     LimitRequestBody 209715200
     DocumentRoot /var/www
-</VirtualHost>```
+</VirtualHost>
+```
 
 This includes stuff for custom 500 pages if the site goes down, etc. feel free to modify all of this :3
 
