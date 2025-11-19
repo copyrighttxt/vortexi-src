@@ -1,0 +1,83 @@
+{
+	"platform": "pc",
+    "atlas":
+    {
+		"pc": {
+			"width": 4096,
+			"height": 2048,
+			"tileSize": 512,
+			"tileCount": 6,
+
+			"borderSize": 85
+		},
+		"ios": {
+			"width": 2048,
+			"height": 2048,
+			"tileSize": 384,
+			"tileCount": 4,
+
+			"borderSize": 85
+		},
+		"android": {
+			"width": 2048,
+			"height": 2048,
+			"tileSize": 384,
+			"tileCount": 4,
+
+			"borderSize": 85
+		}
+	},
+    "materials":
+    [
+		{
+            "name": "Air"
+        },
+        {
+            "name": "Water",
+            "water": 1.0
+        },
+        {
+            "name": "Grass",
+            "texture_top": { "tiling": 0.25, "detiling": 0.25 },
+            "texture_side": { "tiling": 0.2, "detiling": 0.2 },
+            "texture_bottom": { "tiling": 0.45, "detiling": 0.45 }
+        },
+        {
+            "name": "Slate",
+            "shift": 0.1,
+            "texture": { "tiling": 0.55, "detiling": 0.55 }
+        },
+        {
+            "name": "Concrete",
+            "quantize": 0.5,
+			"hard": true,
+            "texture_top": { "tiling": 0.5, "detiling": 0.8 },
+            "texture_side": { "tiling": 0.5 }
+        },
+        {
+            "name": "Brick",
+            "cubify": 1,
+			"hard": true,
+			"mapping": "cube",
+            "texture": { "tiling": 0.80, "detiling": 0.20 }
+        },
+        {
+            "name": "Sand",
+            "texture_top": { "tiling": 0.25, "detiling": 0.25 },
+            "texture_side": { "tiling": 0.25, "detiling": 0.25 }
+        },
+        {
+            "name": "WoodPlanks",
+			"cubify": 1.0,
+			"hard": true,
+			"mapping": "cube",
+            "texture": { "tiling": 0.8, "detiling": 0.5 }
+        },
+        {
+            "name": "Rock",
+            "shift": 0.3,
+			"hard": true,
+            "texture": { "tiling": 0.55, "detiling": 0.55 }
+        }
+    ]
+}
